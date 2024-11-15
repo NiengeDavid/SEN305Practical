@@ -1,0 +1,74 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+/* Bio Section */
+.bio {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+.bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+/* Contact Section */
+.contact-details {
+    padding-top: 20px;
+}
+.contact-details h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+.contact-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contact-details ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.contact-details a {
+    color: #3498db;
+    text-decoration: none;
+}
+.contact-details a:hover {
+    text-decoration: underline;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}

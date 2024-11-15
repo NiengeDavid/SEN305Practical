@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script> <!-- Linking the JS file -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <section class="bio">
+            <img src="../assets/profile.jpeg" alt="Profile Picture" class="profile-image">
+            <p>Hello! My name is John Doe, a passionate web developer based in XYZ city. I enjoy creating intuitive and responsive web applications that help users solve real-world problems. In my free time, I love reading books, hiking, and exploring new technologies.</p>
+        </section>
+        <section class="contact-details">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Email:</strong> john.doe@example.com</li>
+                <li><strong>Phone:</strong> +123-456-7890</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></li>
+            </ul>
+        </section>
+        <!-- Contact Form with Validation -->
+        <section class="contact-form">
+            <h2>Contact Me</h2>
+            <form id="contactForm" action="submit-form.php" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+            <p id="error-msg" class="error"></p> <!-- Display error message -->
+        </section>
+        <footer>
+            <p>&copy; 2024 John Doe. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

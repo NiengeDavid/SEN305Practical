@@ -1,0 +1,90 @@
+/* General Styles (same as before) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Bio Section (same as before) */
+.bio {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+.bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Contact Details Section */
+.contact-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contact-details ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+/* Contact Form */
+.contact-form {
+    padding-top: 20px;
+}
+.contact-form form div {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #2980b9;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-weight: bold;
+}
