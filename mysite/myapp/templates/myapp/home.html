@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Site</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Add Tailwind CSS -->
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-600 shadow-md py-4">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+            <div class="relative flex items-center justify-between h-16">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                    <!-- Mobile menu button-->
+                    <button class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-300 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-600 focus:ring-white">
+                        <span class="sr-only">Open main menu</span>
+                        <!-- Icon -->
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex-shrink-0 text-white text-2xl font-semibold">
+                        My Awesome Site
+                    </div>
+                    <div class="hidden sm:block sm:ml-6">
+                        <div class="flex space-x-4">
+                            <a href="#home" class="text-white hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                            <a href="#about" class="text-white hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                            <a href="#contact" class="text-white hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-600 text-white text-center py-24">
+        <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">Welcome to My Awesome Website</h1>
+        <p class="text-xl sm:text-2xl mb-8">Your journey to a better web experience starts here!</p>
+        <a href="#about" class="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 text-lg font-semibold rounded-lg">Learn More</a>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+                <div>
+                    <h2 class="text-3xl font-bold text-blue-600 mb-4">About Us</h2>
+                    <p class="text-lg text-gray-600 mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet pharetra erat. Aliquam erat volutpat. Integer nec justo nec libero cursus luctus. Phasellus ac sem sit amet lorem pretium lobortis.
+                    </p>
+                    <a href="#about" class="text-blue-600 hover:underline text-lg font-semibold">Read more...</a>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold text-blue-600 mb-4">Our Services</h2>
+                    <p class="text-lg text-gray-600 mb-4">
+                        Nam vel purus quis nunc luctus fermentum. Nulla sed eros vel augue eleifend euismod. Integer convallis leo a ligula fermentum tincidunt. Ut id libero erat. Fusce tincidunt, ante at pretium auctor, orci nunc malesuada dui.
+                    </p>
+                    <a href="#services" class="text-blue-600 hover:underline text-lg font-semibold">Explore Services</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-600 text-white py-8">
+        <div class="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
+            <div class="flex flex-col sm:flex-row justify-between items-center">
+                <div class="text-center sm:text-left">
+                    <h4 class="text-xl font-semibold">My Awesome Site</h4>
+                    <p class="text-sm">© SEN305 - MIU 2024 All rights reserved.</p>
+                </div>
+                <div class="mt-4 sm:mt-0">
+                    <div class="flex space-x-6 justify-center sm:justify-start">
+                        <a href="#" class="text-white hover:text-gray-300">Facebook</a>
+                        <a href="#" class="text-white hover:text-gray-300">Twitter</a>
+                        <a href="#" class="text-white hover:text-gray-300">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
